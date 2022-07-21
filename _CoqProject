@@ -1,0 +1,5 @@
+
+-R theories/ MyPlugin
+-I _build/default/src
+
+theories/Test.v
