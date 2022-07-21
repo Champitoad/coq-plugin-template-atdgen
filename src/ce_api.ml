@@ -1,3 +1,7 @@
+open Cohttp_lwt
+
+let _ = Cohttp_lwt.Body.empty
+
 (** Example: calling a C function *)
 external get_n : unit -> int = "get_n"
 

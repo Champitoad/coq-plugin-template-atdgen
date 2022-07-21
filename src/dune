@@ -24,7 +24,7 @@
 
    coq-core.vernac                  ; Needed for vernac extend.
    coq-core.plugins.ltac            ; Needed for tactic extend.
-   atdgen
+   cohttp-lwt-unix
  )
 )
 
