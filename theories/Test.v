@@ -1,4 +1,5 @@
 Declare ML Module "my_plugin".
+Declare ML Module "atdgenml".
 
 CallC.
 
