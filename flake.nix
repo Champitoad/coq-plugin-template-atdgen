@@ -17,6 +17,7 @@
 
     pkg = ocamlPackages.callPackage ./default.nix {
       coq_8_16 = coq;
+      atdgen = ocamlPackages.atdgen;
     };
 
     shell = pkgs.mkShell {

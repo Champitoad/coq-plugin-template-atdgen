@@ -1,4 +1,4 @@
-{ buildDunePackage, coq_8_16, zarith, lib }:
+{ buildDunePackage, coq_8_16, atdgen, zarith, lib }:
 
 buildDunePackage {
   pname = "coq-plugin-template-atdgen";
@@ -11,6 +11,7 @@ buildDunePackage {
   buildInputs = [
     coq_8_16
     zarith
+    atdgen
   ];
 
   meta = {
