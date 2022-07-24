@@ -16,7 +16,7 @@
     coqPackages = pkgs.mkCoqPackages coq;
 
     pkg = ocamlPackages.callPackage ./default.nix {
-      coq_8_15 = coq;
+      coq_8_16 = coq;
     };
 
     shell = pkgs.mkShell {
@@ -26,7 +26,7 @@
           ocaml 
           findlib
           dune_2
-          ocaml-lsp
+          # ocaml-lsp
           merlin
           ;
       };
